@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetto Phishing</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Benvenuto</h1>
+        <p>Inserisci i tuoi dati personali per verificare l'account:</p>
+        <form action="/submit" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="indirizzo">Indirizzo:</label>
+            <input type="text" id="indirizzo" name="indirizzo" required><br>
+
+            <label for="telefono">Telefono:</label>
+            <input type="text" id="telefono" name="telefono" required><br>
+
+            <button type="submit">Invia</button>
+        </form>
+    </div>
+</body>
+</html>
